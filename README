@@ -1,4 +1,3 @@
-
 SATORI
 
 How to run
@@ -6,6 +5,8 @@ How to run
 easy way:
 
 Open DrRacket (5.1 ) and run teach.ss
+
+  > (run-teach-server)
 
 
 hard way:
@@ -19,8 +20,8 @@ hard way:
 
 $> racket
 
-4. (require "teach.ss")
-   (run-teach-server)
+4. >(require "teach.ss")
+   >(run-teach-server)
 
 5. go to http://localhost:8000/hello
 
